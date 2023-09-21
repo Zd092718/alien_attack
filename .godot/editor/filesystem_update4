@@ -3,3 +3,7 @@ res://scenes/player.tscn
 res://scripts/player.gd
 res://scenes/rocket.tscn
 res://scripts/rocket.gd
+res://scenes/enemy.tscn
+res://scripts/enemy.gd
+res://scenes/enemy_spawner.tscn
+res://scripts/enemy_spawner.gd
