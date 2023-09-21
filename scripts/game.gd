@@ -15,6 +15,7 @@ func _on_deathzone_area_entered(area):
 
 func _on_player_took_damage():
 	lives -= 1
+	hud.set_lives_left_label(lives)
 	print(lives)
 	if lives == 0:
 		print("Game Over")

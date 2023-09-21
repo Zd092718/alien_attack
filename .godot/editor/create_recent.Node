@@ -1,4 +1,5 @@
 Label
+TextureRect
 CanvasLayer
 CollisionShape2D
 Area2D
@@ -9,4 +10,3 @@ Node
 Sprite2D
 VisibleOnScreenNotifier2D
 CharacterBody2D
-TextureRect
