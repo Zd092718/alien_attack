@@ -13,5 +13,6 @@ func die():
 
 
 func _on_body_entered(body):
+	#check for player collision
 	body.take_damage()
 	die()

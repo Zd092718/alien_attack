@@ -7,6 +7,8 @@ var speed = 300
 var rocket_scene = preload("res://scenes/rocket.tscn")
 
 @onready var rocket_container = $RocketContainer #get_node("RocketContainer")
+
+@onready var rocket_fired_sound = $RocketFiredSound
  
 
 func _process(delta):
@@ -31,8 +33,10 @@ func _physics_process(delta):
 	global_position = global_position.clamp(Vector2(0,0), screen_size)
 
 func _shoot():
+	#instantiate rocket
 	var rocket_instance = rocket_scene.instantiate()
 	rocket_container.add_child(rocket_instance)
+	rocket_fired_sound.play()
 	rocket_instance.global_position = global_position
 	rocket_instance.global_position.x += 75
 	

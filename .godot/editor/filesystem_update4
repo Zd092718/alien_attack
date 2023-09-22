@@ -3,3 +3,8 @@ res://scenes/hud.tscn
 res://scenes/game_over_screen.tscn
 res://scripts/game_over_screen.gd
 res://scripts/game.gd
+res://scripts/enemy_spawner.gd
+res://scripts/enemy.gd
+res://scripts/player.gd
+res://scripts/rocket.gd
+res://scenes/player.tscn
