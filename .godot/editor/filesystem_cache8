@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695306585
+::res://::1695395099
 icon.svg::CompressedTexture2D::1905215129791941765::1695306325::1695306330::1::::<><>::
+game_over_screen.tscn::PackedScene::8603332126286097100::1695395099::0::1::::<><>::
 ::res://assets/::1695306966
 ::res://assets/audio/::1695306966
 explode.wav::AudioStreamWAV::3801106177007356615::1695306966::1695306966::1::::<><>::
@@ -15,6 +16,17 @@ enemy_ship_2.png::CompressedTexture2D::8162780597644386053::1695306966::16953069
 orb.png::CompressedTexture2D::2006037031149611499::1695306966::1695306966::1::::<><>::
 player_ship.png::CompressedTexture2D::5264534025616575197::1695306966::1695306966::1::::<><>::
 rocket.png::CompressedTexture2D::7027025082062415784::1695306966::1695306966::1::::<><>::
-::res://scenes/::1695306495
-game.tscn::PackedScene::2131694763277870485::1695306495::0::1::::<><>::
-::res://scripts/::1695306456
+::res://scenes/::1695395006
+enemy.tscn::PackedScene::5979021628763463903::1695333360::0::1::::<><>::res://scripts/enemy.gd<>uid://dosoa0ru6vby3::::res://assets/textures/enemy_ship.png
+enemy_spawner.tscn::PackedScene::6074177809917578912::1695333360::0::1::::<><>::res://scripts/enemy_spawner.gd
+game.tscn::PackedScene::2131694763277870485::1695395006::0::1::::<><>::uid://cp62w16pvjm2e::::res://assets/textures/bg.png<>res://scripts/game.gd<>uid://d28i7f2xfceuf::::res://scenes/hud.tscn<>uid://cslitdkccb7gf::::res://scenes/player.tscn<>uid://cssm26f056pfc::::res://scenes/enemy_spawner.tscn
+hud.tscn::PackedScene::9123028481915488829::1695395006::0::1::::<><>::uid://d1ywo2jrhlhvc::::res://assets/font/Kenney Blocks.ttf<>res://scripts/hud.gd<>uid://3t0ewfp7ts00::::res://assets/textures/orb.png
+player.tscn::PackedScene::6059468547303481913::1695333360::0::1::::<><>::uid://chagdu22qy0xl::::res://assets/textures/player_ship.png<>res://scripts/player.gd
+rocket.tscn::PackedScene::3451453125216353676::1695333360::0::1::::<><>::res://scripts/rocket.gd<>uid://c7d7cumn86x2o::::res://assets/textures/rocket.png
+::res://scripts/::1695334553
+enemy.gd::GDScript::-1::1695332889::0::1::::<>Area2D<>::
+enemy_spawner.gd::GDScript::-1::1695333069::0::1::::<>Node2D<>::
+game.gd::GDScript::-1::1695334532::0::1::::<>Node2D<>::
+hud.gd::GDScript::-1::1695334553::0::1::::<>Control<>::
+player.gd::GDScript::-1::1695332727::0::1::::<>CharacterBody2D<>::
+rocket.gd::GDScript::-1::1695329758::0::1::::<>Area2D<>::

@@ -1,4 +1,6 @@
+Button
 Label
+Panel
 TextureRect
 CanvasLayer
 CollisionShape2D
